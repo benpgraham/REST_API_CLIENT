@@ -1,0 +1,13 @@
+.home-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+      
+.home-title {
+    grid-column: 2;
+}
+
+.home-product-layout {
+    grid-column: 2;
+}

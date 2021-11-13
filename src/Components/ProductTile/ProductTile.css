@@ -1,0 +1,28 @@
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-description {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-tile .product-image img {
+    width: 100%;
+    overflow: hidden;
+}
