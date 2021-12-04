@@ -18,11 +18,11 @@ const Home = () => {
     return (
         <div className='home-page'>
             <div className='home-title'>
-                <h1>Home Page</h1>
+                <h2>Store</h2>
             </div>
             <div className='home-product-layout'>
                 {products.map((product) => {
-                return <ProductTile product={product} key={product.id} />
+                return <ProductTile className='product-tile' product={product} key={product.id} />
                 })}
             </div>
         </div>

@@ -10,7 +10,7 @@ const ProductTile = ({ product }) => {
                 <h2>{product.price}</h2>
             </div>
             <div className='product-image'>
-                <img src={product.photo_url} alt="" />
+                <img src={product.photo_url} alt="" width='200' height='200' />
             </div>
             <div className='product-description'>
                 <h3>{product.description}</h3>

@@ -5,7 +5,7 @@ const Header = () => {
 
     return (
         <div className='title'>
-            <h1>Header Block</h1>
+            <h1>The Shop of Many Things</h1>
         </div>
     )
 
